@@ -1,0 +1,20 @@
+Return-Path: <news@mail.contoso-training.example>
+Received: from mail.contoso-training.example (mail.contoso-training.example [192.0.2.25])
+	by mx.university.example with ESMTPS id 9F2A1; Mon, 21 Sep 2026 09:00:02 +1000
+Authentication-Results: mx.university.example;
+	spf=pass smtp.mailfrom=mail.contoso-training.example;
+	dkim=pass header.d=contoso-training.example;
+	dmarc=pass header.from=contoso-training.example
+From: Contoso Training <news@contoso-training.example>
+To: student@university.example
+Subject: Your September learning digest
+Date: Mon, 21 Sep 2026 09:00:00 +1000
+Message-ID: <digest-0921@contoso-training.example>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Hi,</p>
+<p>Here are this month's new courses. Browse them on <a href="https://contoso-training.example/courses">our course page</a>.</p>
+<p>You can <a href="https://contoso-training.example/unsubscribe">unsubscribe</a> at any time.</p>
+</body></html>

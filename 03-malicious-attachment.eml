@@ -1,0 +1,45 @@
+Return-Path: <accounts@quickpay-invoices.example>
+Received: from mail.quickpay-invoices.example ([198.51.100.33]) by
+ mx.university.example with ESMTP id 33AB; Wed, 23 Sep 2026 11:02:10 +1000
+Authentication-Results: mx.university.example; spf=pass
+ smtp.mailfrom=quickpay-invoices.example; dkim=fail
+ header.d=quickpay-invoices.example; dmarc=fail
+ header.from=quickpay-invoices.example
+From: Accounts Payable <accounts@quickpay-invoices.example>
+To: student@university.example
+Subject: Overdue invoice INV-20931 - payment required today
+Date: Wed, 23 Sep 2026 11:02:08 +1000
+Message-ID: <inv20931@quickpay-invoices.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============3972156097497927886=="
+
+--===============3972156097497927886==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Your invoice is overdue. Please review the attached invoice and enable conten=
+t to view it.
+Payment must be made today to avoid late fees.
+
+Regards,
+Accounts
+
+--===============3972156097497927886==
+Content-Type: application/vnd.ms-excel.sheet.macroEnabled.12
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="INV-20931.xlsm"
+MIME-Version: 1.0
+
+SEFSTUxFU1MgU0FNUExFIC0gc3RhbmRzIGluIGZvciBhIG1hY3JvLWVuYWJsZWQgZG9jdW1lbnQK
+
+--===============3972156097497927886==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="remittance.pdf.zip"
+MIME-Version: 1.0
+
+SEFSTUxFU1MgU0FNUExFCg==
+
+--===============3972156097497927886==--
